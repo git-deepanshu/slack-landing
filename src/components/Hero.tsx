@@ -25,7 +25,11 @@ const Hero = () => {
                 href="/google-signin"
                 className="inline-flex justify-center items-center px-6 py-3 bg-[#2D85EE] text-white rounded-md hover:bg-[#2468B8] transition-colors"
               >
-                <img src={google} alt="Google" className="w-5 h-5 mr-2" />
+                <img
+                  src="/src/assets/google_icon.png"
+                  alt="Google"
+                  className="w-5 h-5 mr-2 p-1 bg-white rounded-sm"
+                />{" "}
                 Sign in with Google
               </a>
             </div>

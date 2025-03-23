@@ -16,9 +16,14 @@ const Features = () => {
             <h2 className="text-3xl font-bold text-black mb-6">
               Now is your moment to build a better tomorrow.
             </h2>
+
+            <p className="text-gray-600 text-lg mb-8">
+              We've seen what the future can be, now it's time to decide what it
+              can be
+            </p>
             <a
               href="/learn-more"
-              className="inline-flex justify-center items-center px-6 py-3 bg-[#5A3DF6] text-white rounded-md hover:bg-[#4931C4] transition-colors"
+              className="hidden md:inline-block px-4 py-2 border border-[#611E67] text-[#611E67] rounded-md hover:bg-[#611E67] hover:text-white transition-colors"
             >
               Learn More
             </a>
